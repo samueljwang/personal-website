@@ -1,0 +1,149 @@
+html {
+    background-color:#f1efdf;
+    user-select: none;
+}
+
+h1 {
+    color: black;
+    font-size: 13px;
+    text-indent: 40mm;
+    line-height: 30mm;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 350;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: black;
+    font-size: 13px;
+    text-indent: 40mm;
+    line-height: 90mm;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 350;
+    letter-spacing: 1.5px;
+}
+
+/* For Year Page Headers*/
+h2.year {
+    text-indent: 49%;
+    line-height: 50mm;
+}
+
+h3 {
+    color: black;
+    font-size: 50px;
+    text-indent: 40mm;
+    margin-top: -130px;
+    font-family: 'Cormorant', serif;
+    font-weight: 100;
+}
+
+h3.exps {
+    text-indent: 0mm;
+    padding-left: 40mm;
+}
+
+/* Amazon Web Services Title */
+h3.aws {
+    text-indent: 32%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* Ice Title */
+h3.ice {
+    text-indent: 41.5%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* Ever Title */
+h3.ever {
+    text-indent: 40.5%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* Rain Title */
+h3.rain {
+    text-indent: 40%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* SBJ Capital Title */
+h3.sbj {
+    text-indent: 41%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* Hudson Bend Title */
+h3.hud {
+    text-indent: 39%;
+    line-height: 60mm;
+    font-size: 70px;
+}
+
+/* About Description Title */
+h3.about {
+    text-indent: 58%;
+    line-height: 105mm;
+}
+
+/* About Description Body */
+h3.abody {
+    padding-left: 995px;
+    font-size: 20px;
+    font-weight: 2em;
+    text-indent: 0mm;
+}
+
+h4 {
+    color: black;
+    font-size: 13px;
+    text-indent: 40mm;
+    margin-top: 405px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 350;
+    letter-spacing: 0px;
+}
+
+/* For News Section of Recent Work Pages */
+h4.news {
+    text-indent: 0;
+    margin-top: 0;
+    padding-left: 550px;
+}
+
+h4.description {
+    text-indent: 0;
+    margin-top: 0;
+    padding-left: 800px;
+}
+
+h5 {
+    color: black;
+    font-size: 70px;
+    text-indent: 200mm;
+    margin-top: 50px;
+    font-family: 'Cormorant', serif;
+    font-weight: 100;
+}
+
+h6 {
+    color: black;
+    font-size: 12px;
+    text-indent: 120mm;
+    margin-top: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 375;
+    letter-spacing: 0.6px;
+}
+
+/* Journal Body */
+h6.body {
+    padding-left: 500px;
+    font-weight: 2em;
+    text-indent: 0mm;
+}
