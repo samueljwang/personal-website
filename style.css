@@ -114,6 +114,18 @@ h3.about {
     font-family: 'Cormorant', serif;  /* Assuming Cormorant is a serif font, you should adjust the fallback font (serif here) accordingly. */
 }
 
+.left-side-image {
+    position: fixed;  /* This will "fix" the image to a specific position on the page */
+    left: 100;          /* This will place the image at the very left edge of the page */
+    top: 65%;         /* This will place the image's top edge halfway down the page */
+    transform: translateY(-50%);  /* This will vertically center the image */
+    max-height: 80vh; /* This ensures the image doesn't take up more than 80% of the viewport's height */
+    width: 500px;
+    height: auto;
+    margin-left: 150px;
+}
+
+
 .description p {
     margin-bottom: 1.5rem; 
     line-height: 1.6;
