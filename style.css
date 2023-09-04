@@ -120,7 +120,7 @@ h3.about {
     top: 65%;         /* This will place the image's top edge halfway down the page */
     transform: translateY(-50%);  /* This will vertically center the image */
     max-height: 80vh; /* This ensures the image doesn't take up more than 80% of the viewport's height */
-    width: 500px;
+    width: 250px;
     height: auto;
     margin-left: 150px;
 }
