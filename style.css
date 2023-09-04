@@ -6,11 +6,30 @@ html {
 h1 {
     color: black;
     font-size: 13px;
-    text-indent: 40mm;
-    line-height: 30mm;
+    text-indent: 5vw;
+    line-height: 3rem;
     font-family: 'Roboto Mono', monospace;
     font-weight: 350;
     letter-spacing: 1px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;  /* Pushes the items to the edges */
+    align-items: center;  /* Vertically center the items */
+    width: 100%;  /* Takes the full width of the container */
+}
+
+.name {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.links {
+    padding-right: 3rem;
+}
+
+.links a {
+    margin-left: 1rem;  /* Adds spacing between the links */
 }
 
 h2 {
@@ -32,20 +51,19 @@ h2.year {
 h3 {
     color: black;
     font-size: 50px;
-    text-indent: 40mm;
     margin-top: -130px;
     font-family: 'Cormorant', serif;
     font-weight: 100;
 }
 
 h3.exps {
-    text-indent: 0mm;
-    padding-left: 40mm;
+    width: 70%; /* Adjust based on your layout needs */
+    margin-left: 40mm; /* Positioning from the left */
 }
 
 /* Amazon Web Services Title */
 h3.aws {
-    text-indent: 32%;
+    text-indent: 34%;
     line-height: 60mm;
     font-size: 70px;
 }
@@ -87,26 +105,37 @@ h3.hud {
 
 /* About Description Title */
 h3.about {
-    text-indent: 58%;
     line-height: 105mm;
+    padding-left: 210mm;
+    white-space: nowrap;
 }
 
-/* About Description Body */
-h3.abody {
-    padding-left: 995px;
+h3.about {
+    font-family: 'Cormorant', serif;  /* Assuming Cormorant is a serif font, you should adjust the fallback font (serif here) accordingly. */
+}
+
+.description p {
+    margin-bottom: 1.5rem; 
+    line-height: 1.6;
+    color: black;
     font-size: 20px;
-    font-weight: 2em;
-    text-indent: 0mm;
+    padding-left: 210mm;   /* This indents the entire paragraph to the right */
+    font-family: 'Cormorant', serif;
+    font-weight: 100;
 }
 
 h4 {
     color: black;
     font-size: 13px;
     text-indent: 40mm;
-    margin-top: 405px;
+    margin-top: 0px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 350;
     letter-spacing: 0px;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
 }
 
 /* For News Section of Recent Work Pages */
@@ -120,6 +149,10 @@ h4.description {
     text-indent: 0;
     margin-top: 0;
     padding-left: 800px;
+}
+
+h4.abouthome {
+    margin-top: 0px;
 }
 
 h5 {
